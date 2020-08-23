@@ -31,12 +31,14 @@
 }
 
 - (void)layoutSubviews {
+    if([self.reuseIdentifier isEqualToString:@"ft"]) {
     self.labelName.frame = CGRectMake(105, 23, 70, 60);
     self.labelStr.frame = CGRectMake(300, 25, 100, 60);
     self.btnTouXiang.frame = CGRectMake(5, 10, 110, 110);
     self.btn1.frame = CGRectMake(85, 67, 100, 40);
     self.btn2.frame = CGRectMake(168, 77, 43, 20);
     
+        
 }
-
+}
 @end

@@ -11,9 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MyTableViewCell1 : UITableViewCell
-@property UILabel *label1;
-@property UILabel *label2;
-@property UIButton *btn;
+//@property UILabel *label1;
+//@property UILabel *label2;
+//@property UIButton *btn;
 @end
 
 NS_ASSUME_NONNULL_END

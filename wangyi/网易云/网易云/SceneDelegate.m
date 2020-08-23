@@ -22,6 +22,7 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
+    
     _window = [[UIWindow alloc] initWithWindowScene:scene];
     
     //显示window
